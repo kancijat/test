@@ -8,5 +8,10 @@ pipeline {
         sh 'java -version'
       }
     }
+    stage('Display') {
+      steps {
+        sh 'echo Displaying message'
+      }
+    }
   }
 }
