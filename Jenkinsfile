@@ -4,6 +4,8 @@ pipeline {
     stage('Build') {
       steps {
         sh 'echo "Hello World"'
+        sh 'ls -la'
+        sh 'java -version'
       }
     }
   }
